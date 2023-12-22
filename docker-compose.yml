@@ -1,0 +1,17 @@
+version: "3.5"
+services:
+  app:
+    build:
+      dockerfile: ./src/app/Dockerfile
+    image: bettercanvas-app
+    container_name: app
+    ports:
+      - "19000:19000"
+
+  api:
+    build:
+      dockerfile: ./src/api/Dockerfile
+    image: bettercanvas-api
+    container_name: api
+    ports:
+      - "3001:3001"

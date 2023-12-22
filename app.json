@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "entryPoint": "./src/app/App.js",
+    "extra": {
+      "eas": {
+        "projectId": "a73ed7f1-849a-4f17-8d26-14b7162b8a81"
+      }
+    },
+    "owner": "sulomhb",
+    "slug": "bettercanvas-app",
+    "android": {
+      "versionCode" : 4,
+      "package": "com.sulomhb.bettercanvasapp"
+    }
+  }
+}

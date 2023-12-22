@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@components/*": ["app/components/*"], // No need for "src/"
+      "@env/*": ["types/*"] // No need for "./"
+    },
+    "typeRoots": ["./src/types"]
+  },
+  "extends": "expo/tsconfig.base",
+  "strict": true,
+  "types": ["node", "@types/dotenv"]
+}
